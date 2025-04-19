@@ -1,5 +1,9 @@
 # Image Matching with SIFT
 
+**Mini-project by:**
+* Alamir Hossam 120210301
+* Salma Noureddin 120210389
+
 `ObjectDetection.py`:
 1. Loads `query.jpg` (the object we're looking for)
 2. Loads `target.jpg` (the larger image where the object may be found)
