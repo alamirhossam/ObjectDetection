@@ -13,7 +13,7 @@ target_color = cv2.imread('target.jpg')  # For final output with rectangle
 
 # Check if images loaded successfully
 if query_img is None or target_gray is None or target_color is None:
-    print("❌ Error: Make sure 'query.jpg' and 'target.jpg' are in the same folder as this script.")
+    print("Error: Make sure 'query.jpg' and 'target.jpg' are in the same folder as this script.")
     exit()
 
 # Initialize SIFT detector
@@ -57,4 +57,4 @@ if len(good_matches) > 10:
     cv2.waitKey(0)
     cv2.destroyAllWindows()
 else:
-    print("❌ Not enough good matches were found - try a clearer image.")
+    print("Not enough good matches were found - try a clearer image.")
