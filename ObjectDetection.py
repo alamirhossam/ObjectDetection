@@ -1,5 +1,5 @@
 #By Alamir Hossam 120210301
-#Salma Amin 120210389
+#Salma Amin Noureddin 120210389
 
 import cv2
 import numpy as np
